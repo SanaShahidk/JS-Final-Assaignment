@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assist/css/style.css">
+</head>
+<body>
+    <h1>FIND & REPLACE USING JAVASCRIPT</h1>
+    <div id="haystack">
+        "Cinderella", or "The Little Glass Slipper", is a folk tale with thousands of variants throughout the world. The protagonist is a young woman living in forsaken circumstances that are suddenly changed to remarkable fortune, with her ascension to the throne via marriage.
+        Cinderella, the beautiful and kind-hearted daughter, sees her world turn upside down when her beloved mother dies, and her pained father remarries another woman, the wicked Lady Tremaine, who has two equally cruel daughters, the jealous Anastasia and Drizella.
+        Cinderella lived with her stepmother and her two stepsisters, Anastasia and Drizella. They were very mean to Cinderella, making her work all day cleaning, sewing, and cooking. She tried her best to make them happy. Cinderella's stepmother, Lady Tremaine, was cold, cruel, and jealous of Cinderella's charm and beauty.
+        He slides the slipper onto Cinderella's foot, and it fits perfectly. Cinderella, along with the mice, Bruno, and Major, is taken to the castle, where she reunites with Prince Charming and becomes his bride and a princess.
+    </div>
+    <br>
+    <table class="main">
+        <tr>
+            <td class="find">Find</td><br>
+            <td><input id="needle" name="needle" type="text"class="needle"></td>
+        </tr>
+        <tr>
+            <td class="replace">Replacment</td><br>
+            <td><input id="replacement" name="replacement" type="text" class="replacement"></td>
+        </tr>
+    </table>
+    <input type="button" value="Find"class="find"
+        onClick="findMyText(document.getElementById('needle').value, document.getElementById('replacement').value);">
+        <input type="button" value="Replace"class="replace"
+        onClick="findMyText(document.getElementById('needle').value, document.getElementById('replacement').value);">
+    <script src="./assist/js/app.js"></script>
+</body>
+</html>

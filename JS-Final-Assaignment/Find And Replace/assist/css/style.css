@@ -1,0 +1,38 @@
+body{
+    background-color: pink;
+}
+h1{
+    color: rgb(71, 23, 5);
+    border: 2px solid rgb(51, 83, 4);
+    width: fit-content;
+    text-align: center;
+    margin-left: 5px;
+
+}
+#haystack{
+    font-weight: 500;
+    font-variant: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.find{
+    width: 40px;
+    height: 40px;
+    color: rgb(173, 39, 39);
+    margin-left: 40px; 
+
+}
+.replace{
+    width: 60px;
+    height: 40px;
+    color: rgb(128, 22, 22);
+    margin-left: 20px; 
+}
+.needle{
+    height: 20px; 
+}
+.replacement{
+    height: 20px;  
+}
+.main{
+    margin: 30px; 
+}
